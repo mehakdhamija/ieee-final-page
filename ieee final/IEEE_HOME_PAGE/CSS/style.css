@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
+/*
+@media(max-width:998px){
+  html{
+    font-size: 55%;
+  }
+}
+
+@media(max-width:768px){
+  html{
+    font-size: 45%;
+  }
+}*/
+
+:root{
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+}
+
+.test1{
+    font-weight: 700;
+    font-size: 4.375rem;
+    line-height: 4.375rem;
+}
+
+#upperText{
+    height: 30.8125rem;
+    width: 48.3125;
+    /* left: 100px; */
+    right: 2.1875rem;
+    top: 0rem;
+    border-radius: nullpx;
+    margin-top: 0;
+    margin-left: 10%;
+    letter-spacing: 0.25rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+#lowerText{
+    margin-right: 40%;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #8E8E92;
+    letter-spacing: normal;
+    margin-bottom: -3.75rem;
+    padding: 0;
+    width: 110%;
+}
+
+.events{
+    background-color: #0083FF;
+    color: white;
+    width: 80%;
+    height: 110%;
+    border-style: none;
+    border-radius:1.25rem;
+    margin-top: 1%;
+    font-size:1.25rem;
+    font-family: 'Montserrat';
+font-style: normal;
+    /* transform: translateX(-110px); */
+    translate: -110px;
+    /* transform: translateY(20px); */
+    /* left: 10%; */
+}
+
+#learnmoreid{
+  transform:  translateY(-12.1875rem)
+  
+}
+
+.learnmore{
+    background-color: white;
+    color: black;
+    width: 82%;
+    height: 120%;
+    border-style: none;
+    border-radius: 1.8125rem;
+    /* margin-top: 0%; */
+    top: 50%;
+    margin-left: 6.25rem;
+    border: 1px solid #c0dcf5;
+    /* margin-left: -180px; */
+
+   transform:  translateY(-12.1875rem);
+   /* top: 50%; */
+   font-family: 'Montserrat';
+font-style: normal;
+font-size: 1.25rem;
+}
+
+
+#myCarousel{
+    border-radius: 5%;
+    right: 23%;
+    margin-top: -15%;
+    height: 31.25rem;
+    width: 31.25rem;
+}
+
+.carousel-control-next{
+    margin-right: 19%;
+}
+
+.carousel-control-prev{
+  margin-left: -27%;
+}
+
+.carousel-control-next-icon{
+  color: #010101;
+}
+
+
+
+#logoieee{
+    height: 40%;
+    width: 30%;
+    margin-left: 12%;;
+    
+}
+
+.ieeeWeek{
+    background-color: white;
+    color: black;
+    width: 140%;
+    height: 100%;
+    border-style: none;
+    border-radius: 1.0625rem;
+    /* margin-top: 5%; */
+    border: 1px solid #c9e0f5;
+    font-family: 'Poppins';
+font-style: normal;
+    
+}
+
+#navbarSupportedContent{
+    margin-right: 14%; 
+    font-family: 'Poppins';
+font-style: normal;
+}
+
+#navbarSupportedContent li {
+	display: inline;
+}
+
+#navbarSupportedContent a {
+	text-decoration: none;
+	font-size: 1.25rem;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+  margin-right: 1.25rem;
+  font-family: 'Smooch Sans', sans-serif;
+	
+}
+
+#navbarSupportedContent a:hover {
+	color: rgb(14, 85, 227);
+    text-decoration: underline;
+}
+
+.ieeeWeek:hover {
+    border-color: #0083FF;
+}
+
+
+.events:hover {
+    background-color: #0083FF;
+    transform: scale(1.2);
+}
+
+.learnmore:hover {
+    transform: scale(1.2);
+    border-color: #0083FF;
+}
+                                                      /* Sara's Code */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    word-wrap: break-word;
+
+}
+
+h2{ position: relative;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+  }
+
+.top-part{
+    position:relative;
+    text-align: center;
+    background-color: white;
+    border: 0em;
+    margin: 3rem auto 2.5rem auto;
+    width: 33%;
+    }
+
+    p{
+    color : grey;
+    font-family: 'Poppins';
+font-style: normal;
+  
+    }
+
+    .mid-part{
+        
+        background-color: white;
+        margin: 2.5rem auto 3rem auto;
+       
+    }
+#logo{
+
+    display:inline-block;
+    vertical-align: top;
+    margin-bottom: 3rem;
+    height: 10.625rem;
+    width: 18.125rem;
+    
+
+}
+h3{text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight:600;
+}
+
+    .text1{
+        display:inline-block;
+        margin: 3.125rem 45% 3.125rem 20%;
+        font-family: 'Poppins';
+font-style: normal;
+width: 64%;
+text-align: center;
+        
+         
+    }
+  #wee{
+    display:inline-block;
+    vertical-align: top;
+    width: 35%;
+    margin-bottom: 3rem;
+
+  }
+
+  .text2{
+    display:inline-block;
+    margin: 3.125rem 30% 3.125rem 15%;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    width:64%;
+    
+  }
+
+  .bottom{
+    text-align: center;
+    margin: 3.125rem 20% 3.125rem 20%;
+  }
+ .col{
+    margin:5rem 7rem;
+    
+  }
+h5{
+  text-align: center;
+  font-family: 'Poppins';
+font-style: normal;
+}
+
+/* udita's part */
+
+footer{
+    font-family: 'Poppins';
+  }
+  
+  .heading{
+    font-weight: 700;
+    padding-bottom: 7%;
+    color:black;
+  }
+  
+  .container-fluid{
+    padding: 5% 14%;
+    margin: 0%;
+  }
+  
+  .about{
+    font-weight: 500;
+    color: #969AA7;
+  }
+  
+  i{
+    margin-right:0.3125rem;
+    margin-top:5%;
+    color: #0083FF;
+  }
+  
+  .copyright{
+    color: #969AA7;
+    text-align: center;
+    
+  }
+  
+  .fields{
+   
+    margin-bottom: 2%;
+    border-radius: 0.625 rem;
+    width:20rem;
+    border: 0.125rem solid #b1d3f3;
+  }
+  
+  
+  form{
+    padding-top:0%;
+    padding-left: 0%;
+    margin-left: 0%;
+  }
+  
+  textarea {
+    
+    padding-bottom: 0.375rem ;
+    resize: none;
+  }
+  
+  
+ hr{
+    color:#f3f6f9;
+    border-top: 0.125rem solid ;
+    
+  }
+  
+  .section{
+    padding-left: 10%;
+  }
+  
+  .submit{
+    border-radius:3.125rem;
+  }
+  
+  
+  
+  .card-body{
+    text-align: center;
+  }
+  .card-mid{
+    height: 10rem;
+    width:10rem;
+    grid-area: overlap;
+    justify-content: center;
+    align-self: center;
+    margin: 2rem auto 2rem auto;
+    
+  }
+
+  .imgs{
+
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr;
+     grid-template-areas: overlap;
+
+  }
+  .card-img-top{
+    grid-area: overlap;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .card-bot{
+    height: 4rem;
+    width:4rem;
+    grid-area: overlap;
+    justify-content: center;
+    align-self:center;
+    margin: 2rem auto 2rem auto;
+  /*  margin-left:5.4rem; */
+
+  }
+
+
+  .textc {
+    background: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 3rem;
+  /*   outline: 1px solid #ccc; */
+  }
+  
+  /* Still use global css (not utility css) for base typography etc? */
+  p {
+    margin-bottom: 2em;
+  }
+  
+  .outer-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: #EFF2FB;
+    position: relative;
+  }
+  
+  .inner-circle {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    background: #6889FF;
+    border-radius: 50%;
+  }
+  
+  .icon {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+  }
+  
+  .inner-circle,
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
